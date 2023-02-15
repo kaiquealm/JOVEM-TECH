@@ -1,0 +1,11 @@
+<h1>Deixe aqui seu comentario</h1>
+<p>A sua opinião é muito importante para nós </p>
+<div id="comentar"><a href="/from">comentar </a></div>
+{{#each comments}}
+<h3>{{titulo}}</h3>
+<h4>{{cinteudo}}</h4>
+<small>{{creatdAt}}</small>
+<a href="/deletar/{{id}}"><button>deletar</button></a>
+<hr><div>
+    
+{{/each}}
